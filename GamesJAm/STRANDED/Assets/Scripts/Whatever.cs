@@ -13,7 +13,9 @@ public class Whatever : MonoBehaviour {
 	void Update () {
 		for (int x = 0; x < 10; x++)
         {
-            Debug.Log(x);
+            Debug.Log(x + "1");
+            Debug.Log("1");
+
         }
 	}
 }
