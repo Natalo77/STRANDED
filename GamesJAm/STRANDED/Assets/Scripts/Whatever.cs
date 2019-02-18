@@ -6,7 +6,8 @@ public class Whatever : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        //needs failed.
+        GameStateController.Instance.endGame();
 	}
 	
 	// Update is called once per frame

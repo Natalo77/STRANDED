@@ -220,6 +220,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GameSystems\BuildingPrefabWrapper.cs" />
+    <Compile Include="Assets\GameSystems\GameStateController.cs" />
+    <Compile Include="Assets\GameSystems\Generator_Sys\Generator_Sys.cs" />
+    <Compile Include="Assets\GameSystems\Generator_Sys\Graph.cs" />
+    <Compile Include="Assets\GameSystems\Generator_Sys\GraphError.cs" />
+    <Compile Include="Assets\GameSystems\Generator_Sys\RoadGraph.cs" />
+    <Compile Include="Assets\GameSystems\Generator_Sys\RoadNode.cs" />
+    <Compile Include="Assets\GameSystems\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Player_Camera.cs" />
+    <Compile Include="Assets\Scripts\Player_Movement.cs" />
+    <Compile Include="Assets\Scripts\Player_Needs.cs" />
     <Compile Include="Assets\Scripts\Whatever.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
