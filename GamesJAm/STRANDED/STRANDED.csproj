@@ -220,6 +220,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Compile Include="Assets\GameSystems\BuildingPrefabWrapper.cs" />
+    <Compile Include="Assets\GameSystems\GameStateController.cs" />
+    <Compile Include="Assets\GameSystems\Generator_Sys\Generator_Sys.cs" />
+    <Compile Include="Assets\GameSystems\Generator_Sys\Graph.cs" />
+    <Compile Include="Assets\GameSystems\Generator_Sys\GraphError.cs" />
+    <Compile Include="Assets\GameSystems\Generator_Sys\RoadGraph.cs" />
+    <Compile Include="Assets\GameSystems\Generator_Sys\RoadNode.cs" />
+    <Compile Include="Assets\GameSystems\Singleton.cs" />
+>>>>>>> f60f7e08d93130f38ea949f9db328e47d8e30769
     <Compile Include="Assets\Scripts\Player_Camera.cs" />
     <Compile Include="Assets\Scripts\Player_Movement.cs" />
     <Compile Include="Assets\Scripts\Player_Needs.cs" />
